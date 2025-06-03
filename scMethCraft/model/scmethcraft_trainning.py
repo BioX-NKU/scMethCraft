@@ -36,6 +36,7 @@ def load_seq(input_path,filename,load_range,mode= "onehot"):
             if load_range != False:
                 onehot = file["X"][load_range[0]:load_range[1]]
                 kmer = file["Kmer"][load_range[0]:load_range[1]]
+                pos  = file["Pos"][load_range[0]:load_range[1]]
             else:
                 onehot = file["X"]
                 kmer = file["Kmer"]  
@@ -517,9 +518,6 @@ def output_model(MethyBasset_part1,MethyBasset_part2,savepath = f"../sample_data
     else:
         print("Folder already exists")
 
-    #adata.var = cell_type.var 
-
-    #adata.write(f"{savepath}/{dataset}_newmodel.h5ad")
 
     torch.save(MethyBasset_part1.state_dict(), f"{savepath}/scMethCraft_part1.pth")
     torch.save(MethyBasset_part2.state_dict(), f"{savepath}/scMethCraft_part2.pth")

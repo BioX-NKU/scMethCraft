@@ -2,17 +2,16 @@
 ![](scMethCraft_figure.jpg)
 
 ## Installation  
-scMethCraft is available on PyPI and can be installed via
-	
-	pip install scMethCraft
 
-You can also install scMethCraft from GitHub via
+You can install scMethCraft from GitHub via
 	
 	git clone git://github.com/BioX-NKU/scMethCraft.git
 	cd scMethCraft
 	python setup.py install
 
 The dependencies will be automatically installed along with scMethCraft   
+
+Sample data can be downloaded from:https://drive.google.com/drive/folders/1vaLj5UoJ5wi46ZJAzbwaEkRZU_UEa_k0?usp=drive_link
 
 ## Quick Start
 
@@ -21,6 +20,6 @@ The dependencies will be automatically installed along with scMethCraft
 #### [Dimensionality Reduction](./tutorial/tutorial_cell_embedding.ipynb)
 #### [Data Enhancement](./tutorial/tutorial_cell_embedding.ipynb)
 #### [Batch Integration](./tutorial/tutorial_batch_integration.ipynb)
-
+#### [Cell type annotation](./tutorial/tutorial_annotation.ipynb)
 
 

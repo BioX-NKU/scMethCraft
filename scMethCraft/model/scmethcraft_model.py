@@ -25,7 +25,7 @@ def m_get_filter_dim(seq_length: int, pooling_sizes: List[int]):
     return int(filter_dim/2)
 
 
-class scBasset(nn.Module):
+class model_of_scBasset(nn.Module):
     """
     PytTorch implementation of scBasset model (Yuan and Kelley, 2022)
     Article link: https://www.nature.com/articles/s41592-022-01562-8
