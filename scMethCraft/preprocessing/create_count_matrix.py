@@ -335,7 +335,7 @@ def assemble_meta(data,meta):
     else:
         raise Exception("Meta information not match")
         
-def filter_reigon(adata,threshold_na = 0.8,threshold_var = 5,threshold_sim = 0.99):
+def filter_region(adata,threshold_na = 0.8,threshold_var = 5,threshold_sim = 0.99):
     adata = adata[:,(np.isnan(adata.X).sum(axis = 0)< adata.shape[0]*threshold_na)].copy()
     variance = np.nanvar(adata.X,axis = 0)
     adata = adata[:,variance>np.percentile(variance,threshold_var)].copy()

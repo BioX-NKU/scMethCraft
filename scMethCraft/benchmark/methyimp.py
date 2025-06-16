@@ -8,6 +8,15 @@ import sys
 import os
 
 def evaluation(true_label,pred_label,adata = None):
+    """
+    This function does something.
+
+    Args:
+        x (int): Input integer.
+
+    Returns:
+        int: Output integer.
+    """
     result = dict()
     result["ARI"] =  metrics.adjusted_rand_score(true_label,pred_label)
     result["AMI"] =  metrics.adjusted_mutual_info_score(true_label,pred_label)

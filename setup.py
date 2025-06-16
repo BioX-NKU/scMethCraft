@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(name='scMethCraft',
-    version='1.0.0',
+    version='1.0.1',
     keywords=("pip", "scMethCraft", "single-cell"),
     url="https://hub.njuu.cf/BioX-NKU/",
     author="BioX-NKU",

@@ -3,7 +3,7 @@ def plot_DMR(adata,focus_type):
 
     data = pd.DataFrame({
         'log2_fold_change': result["logfoldchanges"][focus_type],
-        'p_value': result["pvals"][focus_type']
+        'p_value': result["pvals"][focus_type]
     })
 
 
