@@ -1,7 +1,7 @@
 # scMethCraft: A versatile toolkit for analysis of single-cell DNA methylation data
 ![](scMethCraft_figure.jpg)
 
-## Installation  
+## Installation
 
 It's prefered to create a new environment for scMethCraft
 
@@ -54,7 +54,7 @@ Key functions involved:
 A tutorial is provided to demonstrate these functions to users:
 
 #### [Training Data Generation](./tutorial/tutorial_create_training_datasets.ipynb)
-Sample data can be downloaded from:https://drive.google.com/drive/folders/1vaLj5UoJ5wi46ZJAzbwaEkRZU_UEa_k0?usp=drive_link
+Sample data can be downloaded from: https://drive.google.com/drive/folders/1vaLj5UoJ5wi46ZJAzbwaEkRZU_UEa_k0?usp=drive_link
 
 ### 2. Model Training
 
